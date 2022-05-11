@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "450244345904",
+    "project_id": "test-661b4",
+    "storage_bucket": "test-661b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450244345904:android:4ab947ac70f2ff1cad2df5",
+        "android_client_info": {
+          "package_name": "com.example.datawiz_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450244345904-nkvbl7bh7uevnln3efcldajd5rpjv8b1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzwYwih_Omu5jpzHvw9WpyoNq388tH6hY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450244345904-nkvbl7bh7uevnln3efcldajd5rpjv8b1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "450244345904-idlpgv4h32ive3r80mtbpkan7f23ies6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.datawizTest"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
