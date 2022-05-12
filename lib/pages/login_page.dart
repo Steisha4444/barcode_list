@@ -14,12 +14,13 @@ class LoginPage extends StatelessWidget {
     );
     try {
       await _googleSignIn.signIn();
+    } catch (error) {
+      print(error);
+    } finally {
       Navigator.push(
         context,
         MaterialPageRoute(builder: (context) => const BarcodesPage()),
       );
-    } catch (error) {
-      print(error);
     }
   }
 
