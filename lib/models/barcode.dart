@@ -1,5 +1,5 @@
 class Barcode {
-  final String name;
+  late final String name;
   final String code;
   String? comment ;
 
