@@ -15,7 +15,6 @@ class LoginPage extends StatelessWidget {
     try {
       await _googleSignIn.signIn();
     } catch (error) {
-      print(error);
     } finally {
       Navigator.push(
         context,
